@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Oswald:wght@200;600;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>3 page blog</title>
+    <title>Recent Posts</title>
 </head>
-<body> 
+<body>
     <header>
         <div class="container container-flex">
             <div class="site-title">
@@ -20,9 +17,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a class="current-page" href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about-me.html">About me</a></li>
-                    <li><a href="recent-posts.html">Recent posts</a></li>
+                    <li><a class="current-page" href="recent-posts.html">Recent posts</a></li>
                 </ul>
             </nav>
         </div> <!-- / .container -->
@@ -31,12 +28,16 @@
     <div class="container container-flex">
         <main role="main">
             
-            <article class="article-featured">
-                <h2 class="article-title">Finding simplicity in life</h2>
-                <img src="img/life.jpeg" alt="simple white desk on a white wall with a plant on the far right side" class="article-image">
-                <p class="article-info">July 23, 2019 | 3 comments</p>
-                <p class="article-body"><strong>Life can get complicated really quickly</strong>, but it doesn't have to be! There are many ways to simplify your life, <a href="#">a few of which we've explored in the past</a>. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.</p>
-                <a href="#" class="article-read-more">CONTINUE READING</a>
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Finding simplicity in life</h2>
+                    <p class="article-body"><strong>Life can get complicated really quickly</strong>, but it doesn't have to be! There are many ways to simplify your life, <a href="#">a few of which we've explored in the past</a>. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.</p>
+                    <a href="#" class="article-read-more">CONTINUE READING</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="img/life.jpeg" alt="simple white desk on a white wall with a plant on the far right side" class="article-image">
+                    <p class="article-info">July 23, 2019 | 3 comments</p>
+                </div>
             </article>
             
             <article class="article-recent">
@@ -96,7 +97,7 @@
                 </div>
                 <div class="widget-recent-post">
                     <h3 class="widget-recent-post-title">Simple decorations</h3>
-                    <img src="img/deco.jpeg" alt="a green plant in a clear, round vase with water in it" class="widget-image widget-plant">
+                    <img src="img/deco.jpeg" alt="a green plant in a clear, round vase with water in it" class="widget-image">
                 </div>
             </div>
             
@@ -111,5 +112,4 @@
     </footer>
 
 </body>
-
 </html>
